@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-hans">
+  <head>
+    <meta charset="utf-8">
+    <title>The Basic of the Web and HTML</title>
+    <link rel="stylesheet" href="src/css/normalize.css">
+    <link rel="stylesheet" href="src/css/main.css">
+  </head>
+  <body>
+
+    <div class="content">
+      <div class="header">
+        <span class="back"><a href="index.html">回到首页</a></span>
+        <h1 class="md">The Basic of the Web and HTML</h1>
+      </div>
+      <div class="desc">
+        <h3>1.万维网</h3>
+        <p>The basic of the web，我们日常生活中遇到的网页都是由下面四部分组成的。</p>
+        <ul>
+          <li>the web</li>
+          <li>html</li>
+          <li>urls</li>
+          <li>web application</li>
+        </ul>
+        <p>world wide web(万维网)的主要文件类型是HTML(HyperText Markup language,超文本标记语言)。我们可以在网络上找到各种各样的文件，例如视频，图片，音乐等等。</p>
+
+        <p>万维网的主要组成部分如下图所示<br/>
+          <div class="image">
+            <img src="src/img/web.png" alt="web"/>￼
+          </div>
+        <ul>
+          <li>A:客户端，在电脑上运行用于显示web的文件的程序，例如浏览器</li>
+          <li>B:互联网，世界上最大的计算机网络</li>
+          <li>C:Http协议，web的主要协议</li>
+          <li>D:服务器，用于储存Web的组成文件的计算机</li>
+        </ul>
+
+        <h3>2.HTML基础</h3>
+        <h4>HTML标签简介</h4>
+        <p>HTML由以下几部分组成</p>
+        <ul>
+          <li>文本内容</li>
+          <li>标记语言</li>
+          <li>另外的一些文档饮用，例如图像视频等等</li>
+          <li>指向其他页面的链接html标签类似的结构都是由开始标签，结束标签以及标签中间的内容组成，一组标签以及其中的内容可以成为一个元素</li>
+        </ul>
+
+        <h4>HTML的常见标签</h4>
+        <ul>
+          <li>粗体标签，&lt;b&gt;<strong>粗体</strong>&lt;/b&gt;，</li>
+          <li>斜体标签，&lt;em&gt;<em>斜体</em>&lt;/em&gt;表示强调</li>
+          <li>a标签，&lt;a href=&quot;<a class="link" target="_blank" href="https://www.reddit.com">www.reddit.com&quot;&gt;</a> go to reddit&lt;/a&gt;,点击 a标签中间的内容将会跳转到href属性中所写的网站</li>
+          <li>img标签，&lt;img src=&quot;&quot; alt=&quot;text&quot;&gt;,img标签没有结束标签，被称为void tag，img标签中出现了HTML属性src和alt，src中存放该图片的路径，如图片没有正常加载则显示alt标签中的文字</li>
+          <li>br标签，&lt;br&gt;添加在文本后面可以换行</li>
+          <li>p标签，&lt;p&gt;段落&lt;/p&gt;表示段落</li>
+          <li>span标签，&lt;span&gt;&lt;/span&gt;内联元素</li>
+          <li>div标签，&lt;div&gt;&lt;/div&gt;块状元素</li>
+        </ul>
+
+        <p>可以去<a class="link" target="_blank" href="http://www.w3school.com.cn/html/index.asp">W3C</a>查看更多的标签。</p>
+
+        <h4>内联元素和块状元素</h4>
+
+        <p>内联元素：Inline Elements，和相邻的内联元素会在同一行，而br标签就是结束这一行，例如b，em，img</p>
+
+        <p>块元素：Block Elements，总是独占一行，后面的元素需要另一行，有一个看不见的box，有自己的宽度和高度，例如p标签</p>
+
+        <h4>HTML文档结构</h4>
+
+        <div class="image">
+          <img src="src/img/document_struct.png" alt="document_struct"/>￼
+        </div>
+
+        <p>首行代码是创建的每个网页中都应该包含的内容。&lt;!DOCTYPE html&gt;定义了文档类型，这样，浏览器便可以正确显示网页。</p>
+
+        <p>文档从 &lt;html&gt; 标签开始。所有在网页中呈现的内容都要放在这个标签内。</p>
+
+        <p>&lt;head&gt; 标签定义了网页的元数据。它包含网页标题（就是出现在标签页顶端或浏览器窗口顶端的标题）。请注意，&lt;head&gt; 标签之所以被缩进到了新的层级是因为 &lt;html&gt; 标签是打开的，还没有关闭（新内容开始了，但还没有结束）。同样，&lt;title&gt; 标签被缩进到再下一个层级（因为 &lt;head&gt; 标签是打开的，还没有关闭）。</p>
+
+        <p>如果标签中的内容较短，我们通常的做法是，&lt;title&gt; 标签在同一行打开和关闭。另一方面， 标签在另一行关闭，结束标签与其开始标签保持同样的缩进层级。</p>
+
+        <p>标签的内容，代码结构中有没有让你感到很奇怪的地方呢？请注意，在 标签内，你有网页的主体内容。你可以看到在 &lt;body&gt; 内部缩进的 &lt;h&gt; 标签，以及与 &lt;h&gt; 标签相同缩进级别的 &lt;p&gt; 标签。这是一个重要的区别。标题和段落都是主体内容（ &lt;body&gt; 标签内部）的子元素。</p>
+      </div>
+
+    </div>
+
+
+
+  </body>
+</html>

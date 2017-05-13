@@ -1,0 +1,68 @@
+.content {
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  color: white;
+  background-color: #33bebe;
+  padding: 20px 0;
+}
+
+.back {
+  margin-left: 20px;
+}
+
+.back a {
+  color: white;
+}
+
+.md {
+  text-align: center
+}
+
+.titles {
+  cursor: pointer;
+}
+
+.title {
+  margin: 40px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.title a {
+  color: #7c8b88;
+}
+
+.title a:hover {
+  text-decoration: underline;
+  color: #7c8b88;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+
+.desc {
+  padding: 20px 0;
+  line-height: 1.5em;
+}
+
+.link {
+  text-decoration: none;
+  color: #4A90E2;
+}
+
+.code {
+  display: block;
+  background-color: #002b36;
+  color: #839496;
+}
