@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-hans">
+<html lang="zh">
   <head>
     <meta charset="utf-8">
     <title>The Basic of the Web and HTML</title>
@@ -39,7 +39,7 @@
         <p>因为这些规则在各个浏览器各不相同，所以提升不同浏览器之间的样式一致性需要很多工作。一种流行的解决方案是采用被称为 CSS 重置的方式，例如 normalize.css</p>
 
         <p>
-          <a class="link" target="_blank" href="https://css-tricks.com/how-css-selectors-work/">CSS选择器原理</a> <br/>
+          <a class="link" target="_blank" href="https://css-tricks.com/how-css-selectors-work/">CSS选择器原理</a> <br>
           <a class="link" target="_blank" href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/Reference">MDN CSS 参考</a>
         </p>
 
@@ -62,9 +62,9 @@
 
         <p>此方法适合小项目（例如在 scratchpad.io 中运行的小项目）。为此：</p>
 
-        <p>在 HTML 文档的顶部添加 &lt;head&gt; 元素。<br/>
-        在 &lt;head&gt; 元素内，添加 &lt;style&gt; 元素。<br/>
-        在 &lt;style&gt; 元素内写 CSS，然后将网页剩余部分的 HTML 放在下面。<br/>
+        <p>在 HTML 文档的顶部添加 &lt;head&gt; 元素。<br>
+        在 &lt;head&gt; 元素内，添加 &lt;style&gt; 元素。<br>
+        在 &lt;style&gt; 元素内写 CSS，然后将网页剩余部分的 HTML 放在下面。<br>
         例如：</p>
 
         <pre>
@@ -88,10 +88,10 @@
 
         <p>这样就再需要一个步骤，但是如果要完成的是大型项目，代码就更有组织性。为此：</p>
 
-        <p>将所有的结构性 HTML 写到一个文件里（称其为 main.html）。<br/>
-        将所有的 CSS 代码放到单独的文件里（称其为 main.css）。<br/>
-        向 HTML 的顶部添加 &lt;head&gt; 元素。<br/>
-        在 &lt;head&gt; 元素里添加 &lt;link&gt; 标记。因为 &lt;link&gt; 是“void tag”，所以你不需要添加结束 &lt;/link&gt;。<br/>
+        <p>将所有的结构性 HTML 写到一个文件里（称其为 main.html）。<br>
+        将所有的 CSS 代码放到单独的文件里（称其为 main.css）。<br>
+        向 HTML 的顶部添加 &lt;head&gt; 元素。<br>
+        在 &lt;head&gt; 元素里添加 &lt;link&gt; 标记。因为 &lt;link&gt; 是“void tag”，所以你不需要添加结束 &lt;/link&gt;。<br>
         向 &lt;link&gt; 添加以下属性：</p>
 
         <pre><code>rel=&quot;stylesheet&quot;
@@ -113,7 +113,7 @@
           </code>
        </pre>
 
-        <p>在同一文件夹内，可以有一个如下所示的 <br/>
+        <p>在同一文件夹内，可以有一个如下所示的 <br>
         main.css 文件：</p>
 
         <pre>
@@ -126,7 +126,7 @@
 
         <p><b>方法 3：用 HTML 内嵌地编写样式</b></p>
 
-        <p>这通常是一个糟糕的方法，因为这样会导致大量重复代码。但是你可能会见到使用这一方法的代码，所以有必要熟悉这一方法.<br/>
+        <p>这通常是一个糟糕的方法，因为这样会导致大量重复代码。但是你可能会见到使用这一方法的代码，所以有必要熟悉这一方法.<br>
         对于此方法，你需要修改每个 HTML 元素的样式属性。例如：</p>
 
         <pre>
@@ -161,7 +161,7 @@
           <li>content 内容</li>
         </ul>
         <div class="image">
-          <img src="src/img/box-model.jpg" alt="box-model"/>￼
+          <img src="src/img/box-model.jpg" alt="box-model">￼
         </div>
 
         <p>由于每个方框都有太多的属性，所以有时候很难设置正确的方框尺寸，有两种技巧可以解决尺寸问题。</p>
@@ -180,8 +180,8 @@
 
         <h3>6.语义标签</h3>
 
-        <p>我们应该尽量使用语义标签去描述web文档的结构，这样有助于去做SEO。HTML5提供了一些新的标签来帮助我们更好的语义化我们的文档。<br/>
-        例如<br/>
+        <p>我们应该尽量使用语义标签去描述web文档的结构，这样有助于去做SEO。HTML5提供了一些新的标签来帮助我们更好的语义化我们的文档。<br>
+        例如<br>
         h1到h6标题标签，例如nav导航标签，例如footer页脚标签。</p>
 
         <p>可以查看<a class="link" target="_blank" href="https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/Sections_and_Outlines_of_an_HTML5_document#The_HTML5_Outline_Algorithm">HTML5的文档节段和纲要.</a></p>
@@ -198,8 +198,8 @@
 
         <h3>8.HTML验证与CSS验证</h3>
 
-        <p>可以在下面的网址中来进行验证<br/>
-        <a class="link" target="_blank" href="https://validator.w3.org/#validate_by_input">HTML验证</a><br/>
+        <p>可以在下面的网址中来进行验证<br>
+        <a class="link" target="_blank" href="https://validator.w3.org/#validate_by_input">HTML验证</a><br>
         <a class="link" target="_blank" href="https://jigsaw.w3.org/css-validator/#validate_by_input">CSS验证</a></p>
 
 
